@@ -40,7 +40,7 @@ form h1 {
 }
 
 input::placeholder {
-    left: 4px;
+    left: 14px;
     position: absolute;
     color: white;
 }
@@ -106,4 +106,17 @@ input::placeholder {
 
 .button-box button:hover {
     cursor: pointer;
+}
+
+.message-box {
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    bottom: 15%;
+}
+
+.message-box p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
 }
